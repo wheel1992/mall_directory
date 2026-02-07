@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MallMatch SG — Find the Right Mall for Every Family Need</title>
+    <meta
+      name="description"
+      content="A family-first mall finder that matches stores and categories to the best-fitting malls in Singapore."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&family=Manrope:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <nav class="brand">
+          <span class="brand-mark" aria-hidden="true">MM</span>
+          <span class="brand-name">MallMatch SG</span>
+        </nav>
+
+        <div class="hero-grid">
+          <section class="hero-copy">
+            <p class="eyebrow">Family-first mall discovery</p>
+            <h1>Find one mall that works for everyone.</h1>
+            <p class="lead">
+              Singapore has 260+ malls across 28 districts, and many feel the same. Families end up searching
+              store by store just to find a single mall that fits everyone's needs.
+            </p>
+            <div class="cta-row">
+              <a class="cta" href="#interest">Get early access</a>
+              <p class="cta-note">Launching soon. Be the first to try it.</p>
+            </div>
+          </section>
+
+          <section class="hero-card" aria-label="Platform preview">
+            <div class="chip-row">
+              <span class="chip">Manicure</span>
+              <span class="chip">Baby clothes</span>
+              <span class="chip">Toys "R" Us</span>
+            </div>
+            <div class="card-body">
+              <h2>Top match malls</h2>
+              <ol class="match-list">
+                <li><strong>Example Mall A</strong> - 3/3 matches</li>
+                <li><strong>Example Mall B</strong> - 2/3 matches</li>
+                <li><strong>Example Mall C</strong> - 2/3 matches</li>
+              </ol>
+              <p class="card-foot">Alternatives show partial matches too.</p>
+            </div>
+          </section>
+        </div>
+      </header>
+
+      <section class="content">
+        <div class="content-block">
+          <h2>The solution</h2>
+          <p class="solution-tags">
+            <span>Smart matching</span>
+            <span>Family-friendly filters</span>
+            <span>Store + category search</span>
+          </p>
+        </div>
+
+        <div class="content-grid">
+          <section class="content-block">
+            <h2>Simple user journey</h2>
+            <ol class="journey">
+              <li>Input needs: manicure, baby clothes, Toys "R" Us.</li>
+              <li>See top malls that satisfy everyone in one trip.</li>
+              <li>Compare alternatives that partially match.</li>
+            </ol>
+          </section>
+
+          <section class="content-block interest" id="interest">
+            <h2>Interested?</h2>
+            <p>Leave your email and we'll invite you to the private beta.</p>
+            <form class="interest-form" id="interest-form">
+              <label class="sr-only" for="email">Email address</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="you@email.com"
+                autocomplete="email"
+                required
+              />
+              <button type="submit">Notify me</button>
+            </form>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            <p class="small-note">
+              We only use your email for launch updates. Unsubscribe anytime.
+            </p>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Built for families who want less searching and more time together.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
